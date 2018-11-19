@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generated="20181119 16:49:02.894" generator="Robot 3.0.4 (Python 2.7.13 on win32)">
+<suite source="C:\Users\Nurseda\PycharmProjects\BudQaTest\Tests\Step1.robot" id="s1" name="Step1">
+<test id="s1-t1" name="Step 1">
+<kw type="setup" name="Start app">
+<kw name="Open Application" library="AppiumLibrary">
+<doc>Opens a new application to given Appium server.</doc>
+<arguments>
+<arg>${Appium Server}</arg>
+<arg>platformName=Android</arg>
+<arg>platformVersion=9</arg>
+<arg>deviceName=emulator-5554</arg>
+<arg>app=C:\\Users/\Nurseda\\Desktop\\com.shpock.android.apk</arg>
+<arg>automationName=appium</arg>
+<arg>appPackage=com.shpock.android</arg>
+<arg>appActivity=com.shpock.android.ui.tab.GappTabActivity</arg>
+</arguments>
+<status status="PASS" endtime="20181119 16:49:27.949" starttime="20181119 16:49:03.333"></status>
+</kw>
+<status status="PASS" endtime="20181119 16:49:27.950" starttime="20181119 16:49:03.333"></status>
+</kw>
+<kw name="Wait Until Page Contains Element" library="AppiumLibrary">
+<doc>Waits until element specified with `locator` appears on current page.</doc>
+<arguments>
+<arg>${xButton}</arg>
+<arg>timeout=10s</arg>
+<arg>error=None</arg>
+</arguments>
+<status status="PASS" endtime="20181119 16:50:11.902" starttime="20181119 16:49:27.950"></status>
+</kw>
+<kw name="Click Element" library="AppiumLibrary">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>${xButton}</arg>
+</arguments>
+<msg timestamp="20181119 16:50:11.903" level="INFO">Clicking element 'id=Navigate up'.</msg>
+<status status="PASS" endtime="20181119 16:51:13.245" starttime="20181119 16:50:11.903"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>3s</arg>
+</arguments>
+<msg timestamp="20181119 16:51:16.246" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" endtime="20181119 16:51:16.246" starttime="20181119 16:51:13.246"></status>
+</kw>
+<kw name="Click Button" library="AppiumLibrary">
+<doc>Click button</doc>
+<arguments>
+<arg>index=1</arg>
+</arguments>
+<msg timestamp="20181119 16:51:16.568" level="INFO">Clicking element 'ALLOW'.</msg>
+<status status="PASS" endtime="20181119 16:51:19.745" starttime="20181119 16:51:16.246"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>3s</arg>
+</arguments>
+<msg timestamp="20181119 16:51:22.747" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" endtime="20181119 16:51:22.747" starttime="20181119 16:51:19.746"></status>
+</kw>
+<kw name="Click Element" library="AppiumLibrary">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>${gotIt}</arg>
+</arguments>
+<msg timestamp="20181119 16:51:22.748" level="INFO">Clicking element 'id=gotit'.</msg>
+<status status="PASS" endtime="20181119 16:51:26.536" starttime="20181119 16:51:22.748"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>3s</arg>
+</arguments>
+<msg timestamp="20181119 16:51:29.536" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" endtime="20181119 16:51:29.536" starttime="20181119 16:51:26.536"></status>
+</kw>
+<kw name="Click A Point" library="AppiumLibrary">
+<doc>Click on a point</doc>
+<arguments>
+<arg>x=1350</arg>
+<arg>y=175</arg>
+</arguments>
+<msg timestamp="20181119 16:51:29.536" level="INFO">Clicking on a point (1350,175).</msg>
+<status status="PASS" endtime="20181119 16:51:29.771" starttime="20181119 16:51:29.536"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>3s</arg>
+</arguments>
+<msg timestamp="20181119 16:51:32.773" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" endtime="20181119 16:51:32.775" starttime="20181119 16:51:29.772"></status>
+</kw>
+<kw name="Click A Point" library="AppiumLibrary">
+<doc>Click on a point</doc>
+<arguments>
+<arg>x=775</arg>
+<arg>y=500</arg>
+</arguments>
+<msg timestamp="20181119 16:51:32.776" level="INFO">Clicking on a point (775,500).</msg>
+<status status="PASS" endtime="20181119 16:51:33.170" starttime="20181119 16:51:32.776"></status>
+</kw>
+<kw name="Click A Point" library="AppiumLibrary">
+<doc>Click on a point</doc>
+<arguments>
+<arg>x=635</arg>
+<arg>y=1460</arg>
+</arguments>
+<msg timestamp="20181119 16:51:33.171" level="INFO">Clicking on a point (635,1460).</msg>
+<status status="PASS" endtime="20181119 16:51:33.692" starttime="20181119 16:51:33.170"></status>
+</kw>
+<kw name="Click Element" library="AppiumLibrary">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>${applyButton}</arg>
+</arguments>
+<msg timestamp="20181119 16:51:33.693" level="INFO">Clicking element 'id=com.shpock.android:id/btn_apply'.</msg>
+<status status="PASS" endtime="20181119 16:51:36.584" starttime="20181119 16:51:33.692"></status>
+</kw>
+<kw name="Page Should Contain Element" library="AppiumLibrary">
+<doc>Verifies that current page contains `locator` element.</doc>
+<arguments>
+<arg>com.shpock.android:id/bottom_navigation_item_my_shpock</arg>
+</arguments>
+<msg timestamp="20181119 16:51:40.027" level="INFO">Current page contains element 'com.shpock.android:id/bottom_navigation_item_my_shpock'.</msg>
+<status status="PASS" endtime="20181119 16:51:40.027" starttime="20181119 16:51:36.585"></status>
+</kw>
+<kw type="teardown" name="Close Application" library="AppiumLibrary">
+<doc>Closes the current application and also close webdriver session.</doc>
+<status status="PASS" endtime="20181119 16:51:43.539" starttime="20181119 16:51:40.028"></status>
+</kw>
+<doc>*LOAD*: the Shpock app on the device
+*TAP*: on settings at the top-left-side of the app
+*ADJUST*: ‘listed in the last’ 7 days
+*TAP*: on ‘Sort by’
+*ADJUST*: ‘Radius’ to 10 min
+*TAP*: ‘APPLY’ button
+*VERIFY*: the settings</doc>
+<status status="PASS" endtime="20181119 16:51:43.539" critical="yes" starttime="20181119 16:49:03.333"></status>
+</test>
+<status status="PASS" endtime="20181119 16:51:43.540" starttime="20181119 16:49:02.909"></status>
+</suite>
+<statistics>
+<total>
+<stat fail="0" pass="1">Critical Tests</stat>
+<stat fail="0" pass="1">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat fail="0" id="s1" name="Step1" pass="1">Step1</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
